@@ -1,0 +1,49 @@
+# ==========================================
+# Root / General
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.vscode/
+.idea/
+*.swp
+*.swo
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Backend (Python / FastAPI)
+# ==========================================
+backend/venv/
+backend/env/
+backend/.env
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+backend/.pytest_cache/
+backend/.coverage
+backend/htmlcov/
+backend/.mypy_cache/
+backend/uploads/
+backend/alembic.ini.bak
+
+# ==========================================
+# Frontend (React / Vite / Node)
+# ==========================================
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.eslintcache
+frontend/.vite/
