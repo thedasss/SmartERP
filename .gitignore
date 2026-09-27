@@ -29,6 +29,7 @@ backend/htmlcov/
 backend/.mypy_cache/
 backend/uploads/
 backend/alembic.ini.bak
+__init__.py
 
 # ==========================================
 # Frontend (React / Vite / Node)
